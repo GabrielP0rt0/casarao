@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Cardápio completo do Café Colonial - Explore nossos pães, bolos, geleias, queijos e bebidas artesanais" />
+  <title>Cardápio — Café Colonial</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body class="bg-gradient-to-br from-amber-50 to-orange-50 min-h-screen">
+  <main class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+    
+    <!-- Header -->
+    <header class="mb-8">
+      <!-- Back Button -->
+      <div class="mb-6">
+        <a href="/" class="inline-flex items-center gap-2 text-amber-700 hover:text-amber-900 font-medium transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+          </svg>
+          Voltar ao Menu
+        </a>
+      </div>
+      
+      <div class="text-center">
+        <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
+          Nosso Cardápio
+        </h1>
+        <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
+          Delícias artesanais preparadas com ingredientes selecionados de produtores locais
+        </p>
+      </div>
+    </header>
+
+    <!-- Search Bar -->
+    <section class="mb-6">
+      <div class="relative max-w-md mx-auto">
+        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-gray-400">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+          </svg>
+        </div>
+        <input 
+          type="text" 
+          id="search-input"
+          placeholder="Buscar por nome ou descrição..."
+          class="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-amber-700 focus:ring-2 focus:ring-amber-200 transition-all"
+        />
+      </div>
+    </section>
+
+    <!-- Category Filters -->
+    <section class="mb-8">
+      <div class="bg-white rounded-xl shadow-md p-4 border-2 border-gray-200">
+        <h2 class="text-sm font-semibold text-gray-700 mb-3">Categorias</h2>
+        <div id="category-filters" class="flex flex-wrap gap-2">
+          <!-- Category buttons will be loaded here by JavaScript -->
+          <div class="text-center py-2 w-full">
+            <div class="inline-block animate-pulse bg-gray-200 h-8 w-24 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Items Grid -->
+    <section id="menu-section" class="mb-10">
+      <div id="menu-items" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Menu items will be loaded here by JavaScript -->
+        <div class="col-span-full text-center py-12">
+          <div class="inline-block animate-spin rounded-full h-10 w-10 border-b-2 border-amber-700 mb-3"></div>
+          <p class="text-gray-500 text-sm">Carregando cardápio...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info Box -->
+    <section class="mb-10 bg-amber-100 border-2 border-amber-300 rounded-xl p-6">
+      <div class="flex items-start gap-3">
+        <div class="flex-shrink-0 text-amber-700">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+          </svg>
+        </div>
+        <div class="flex-1">
+          <h3 class="font-semibold text-amber-900 mb-1">Informações Importantes</h3>
+          <p class="text-sm text-amber-800 leading-relaxed">
+            Os preços e itens do cardápio podem variar conforme disponibilidade. 
+            Produtos artesanais preparados diariamente com ingredientes frescos e locais.
+            Consulte nossa equipe sobre restrições alimentares e alergias.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-sm text-gray-500 border-t border-gray-200 pt-6">
+      <p class="mb-2">
+        <a href="/" class="text-amber-700 hover:text-amber-900 font-medium transition-colors">
+          ← Voltar ao Menu Principal
+        </a>
+      </p>
+      <p class="text-xs text-gray-400">
+        © 2025 Casarão Café Colonial
+      </p>
+    </footer>
+  </main>
+
+  <script src="/js/cardapio.js"></script>
+</body>
+</html>
+

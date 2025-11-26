@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Faça sua reserva no Café Colonial - Garanta seu lugar e aproveite melhor sua visita" />
+  <title>Reservas — Café Colonial</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body class="bg-gradient-to-br from-amber-50 to-orange-50 min-h-screen">
+  <main class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+    
+    <!-- Header -->
+    <header class="mb-8">
+      <!-- Back Button -->
+      <div class="mb-6">
+        <a href="/" class="inline-flex items-center gap-2 text-amber-700 hover:text-amber-900 font-medium transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+          </svg>
+          Voltar ao Menu
+        </a>
+      </div>
+      
+      <div class="text-center">
+        <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
+          Faça sua Reserva
+        </h1>
+        <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
+          Garanta seu lugar e aproveite melhor sua experiência no Café Colonial
+        </p>
+      </div>
+    </header>
+
+    <!-- Info Cards -->
+    <section class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+      <div class="bg-white rounded-lg border-2 border-gray-200 p-5">
+        <div class="flex items-start gap-3">
+          <div class="flex-shrink-0 text-amber-700">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="font-semibold text-gray-900 mb-1">Funcionamento</h3>
+            <p class="text-sm text-gray-600">
+              Sábados e Domingos<br>
+              08:00 às 17:00
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg border-2 border-gray-200 p-5">
+        <div class="flex items-start gap-3">
+          <div class="flex-shrink-0 text-amber-700">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="font-semibold text-gray-900 mb-1">Confirmação</h3>
+            <p class="text-sm text-gray-600">
+              Resposta em até 24 horas<br>
+              via WhatsApp ou e-mail
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Important Info Box -->
+    <section class="mb-8 bg-blue-50 border-2 border-blue-300 rounded-xl p-6">
+      <div class="flex items-start gap-3">
+        <div class="flex-shrink-0 text-blue-700">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+          </svg>
+        </div>
+        <div class="flex-1">
+          <h3 class="font-semibold text-blue-900 mb-2">Informações Importantes</h3>
+          <ul class="space-y-1 text-sm text-blue-800">
+            <li class="flex items-start gap-2">
+              <span class="text-blue-600 mt-1">•</span>
+              <span>Reservas com antecedência garantem melhor atendimento</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-blue-600 mt-1">•</span>
+              <span>Grupos acima de 10 pessoas: reserva obrigatória</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-blue-600 mt-1">•</span>
+              <span>Informe restrições alimentares no formulário</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-blue-600 mt-1">•</span>
+              <span>Em feriados, consulte horários especiais</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Container -->
+    <section class="mb-10 bg-white rounded-xl shadow-lg p-8 border-2 border-gray-200">
+      <div class="text-center mb-6">
+        <div class="inline-flex items-center justify-center w-16 h-16 bg-amber-100 rounded-full mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-amber-700">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+          </svg>
+        </div>
+        <h2 class="text-2xl font-bold text-gray-900 mb-2">
+          Formulário de Reserva
+        </h2>
+        <p class="text-sm text-gray-600">
+          Preencha os campos abaixo para solicitar sua reserva
+        </p>
+      </div>
+
+      <!-- 
+        INSTRUÇÕES PARA ADICIONAR O GOOGLE FORM:
+        
+        Opção 1: Redirecionar para o formulário (Mais simples)
+        - Deixe apenas o botão abaixo
+        - Configure o link do Google Forms no href
+        
+        Opção 2: Incorporar com iframe (Integrado)
+        - Substitua o botão abaixo pelo código iframe do Google Forms
+        - Veja instruções detalhadas em GOOGLE_FORMS_INSTRUCOES.md
+        
+        Exemplo de iframe:
+        <iframe 
+          src="https://docs.google.com/forms/d/e/SEU_ID_AQUI/viewform?embedded=true" 
+          width="100%" 
+          height="1200" 
+          frameborder="0" 
+          marginheight="0" 
+          marginwidth="0"
+          class="rounded-lg">
+          Carregando…
+        </iframe>
+      -->
+
+      <div class="text-center">
+        <a 
+          href="https://forms.google.com/" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 bg-amber-700 text-white font-semibold px-8 py-4 rounded-lg hover:bg-amber-800 transition-colors shadow-md"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+          Abrir Formulário de Reserva
+        </a>
+        <p class="text-xs text-gray-500 mt-3">
+          Configure o link do Google Forms seguindo as instruções em<br>
+          <code class="bg-gray-100 px-2 py-1 rounded text-amber-700">GOOGLE_FORMS_INSTRUCOES.md</code>
+        </p>
+      </div>
+    </section>
+
+    <!-- Alternative Contact -->
+    <section class="mb-10 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl border-2 border-green-300 p-6">
+      <h3 class="text-lg font-bold text-gray-900 mb-3 text-center">
+        Prefere falar conosco diretamente?
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="bg-white rounded-lg p-4 text-center border border-green-200">
+          <div class="inline-flex items-center justify-center w-12 h-12 bg-green-100 rounded-full mb-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-700">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+            </svg>
+          </div>
+          <p class="font-semibold text-gray-900 mb-1">WhatsApp</p>
+          <p class="text-sm text-gray-600">(00) 00000-0000</p>
+          <p class="text-xs text-gray-500 mt-1">Seg-Sex: 9h às 18h</p>
+        </div>
+
+        <div class="bg-white rounded-lg p-4 text-center border border-green-200">
+          <div class="inline-flex items-center justify-center w-12 h-12 bg-green-100 rounded-full mb-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-700">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+          </div>
+          <p class="font-semibold text-gray-900 mb-1">E-mail</p>
+          <p class="text-sm text-gray-600">contato@casaraocafe.com.br</p>
+          <p class="text-xs text-gray-500 mt-1">Resposta em 24h</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-sm text-gray-500 border-t border-gray-200 pt-6">
+      <p class="mb-2">
+        <a href="/" class="text-amber-700 hover:text-amber-900 font-medium transition-colors">
+          ← Voltar ao Menu Principal
+        </a>
+      </p>
+      <p class="text-xs text-gray-400">
+        © 2025 Casarão Café Colonial
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
+

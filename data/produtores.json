@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdate": "2025-11-26",
+    "description": "Produtores e parceiros locais do Café Colonial"
+  },
+  "produtores": [
+    {
+      "id": "prod-01",
+      "nome": "Fazenda Santa Clara",
+      "responsavel": "João e Maria Silva",
+      "tipoProduto": "Laticínios",
+      "produtos": [
+        "Queijo minas artesanal",
+        "Requeijão cremoso",
+        "Manteiga de garrafa",
+        "Iogurte natural"
+      ],
+      "descricao": "Produção familiar de laticínios há três gerações. Vacas criadas a pasto livre, alimentadas naturalmente. Queijos com certificação de origem artesanal.",
+      "cidade": "Tiradentes",
+      "estado": "MG",
+      "anosParceria": 8,
+      "certificacoes": ["Produto Artesanal MG", "Inspeção Estadual"],
+      "destaque": true
+    },
+    {
+      "id": "prod-02",
+      "nome": "Apiário Mel Dourado",
+      "responsavel": "Carlos Mendes",
+      "tipoProduto": "Mel e Derivados",
+      "produtos": [
+        "Mel puro silvestre",
+        "Própolis",
+        "Pólen",
+        "Geleia real"
+      ],
+      "descricao": "Apicultura sustentável em área de preservação. Mel puro, sem aquecimento ou aditivos. Colheitas respeitam o ciclo natural das abelhas.",
+      "cidade": "São João del-Rei",
+      "estado": "MG",
+      "anosParceria": 5,
+      "certificacoes": ["Orgânico Certificado"],
+      "destaque": false
+    },
+    {
+      "id": "prod-03",
+      "nome": "Horta Orgânica Vale Verde",
+      "responsavel": "Família Oliveira",
+      "tipoProduto": "Hortaliças e Verduras",
+      "produtos": [
+        "Alface orgânica",
+        "Tomates cereja",
+        "Ervas frescas",
+        "Legumes da estação"
+      ],
+      "descricao": "Cultivo 100% orgânico sem agrotóxicos. Sistema de rotação de culturas e compostagem natural. Colheita diária para garantir frescor máximo.",
+      "cidade": "Prados",
+      "estado": "MG",
+      "anosParceria": 3,
+      "certificacoes": ["Orgânico Certificado", "Agricultura Familiar"],
+      "destaque": false
+    },
+    {
+      "id": "prod-04",
+      "nome": "Panificadora Pão Nosso",
+      "responsavel": "Pedro Augusto",
+      "tipoProduto": "Pães Artesanais",
+      "produtos": [
+        "Pães de fermentação natural",
+        "Broas de milho",
+        "Biscoitos caseiros",
+        "Bolo de fubá"
+      ],
+      "descricao": "Panificação artesanal com massa madre de 30 anos. Forno a lenha tradicional. Receitas de família preservadas há gerações.",
+      "cidade": "Tiradentes",
+      "estado": "MG",
+      "anosParceria": 10,
+      "certificacoes": ["Produto Artesanal MG"],
+      "destaque": true
+    },
+    {
+      "id": "prod-05",
+      "nome": "Sítio Frutas do Cerrado",
+      "responsavel": "Ana Paula Costa",
+      "tipoProduto": "Frutas e Polpas",
+      "produtos": [
+        "Jabuticaba",
+        "Goiaba",
+        "Amora",
+        "Polpas congeladas"
+      ],
+      "descricao": "Pomar de frutas nativas do cerrado. Cultivo sem agrotóxicos respeitando a sazonalidade. Processamento artesanal das polpas.",
+      "cidade": "São João del-Rei",
+      "estado": "MG",
+      "anosParceria": 4,
+      "certificacoes": ["Agricultura Familiar"],
+      "destaque": false
+    },
+    {
+      "id": "prod-06",
+      "nome": "Defumados Colonial",
+      "responsavel": "Marcos Antônio",
+      "tipoProduto": "Defumados e Embutidos",
+      "produtos": [
+        "Linguiça artesanal",
+        "Salame colonial",
+        "Presunto defumado",
+        "Copa lombo"
+      ],
+      "descricao": "Defumação lenta em defumador a lenha. Receitas tradicionais europeias adaptadas. Carnes selecionadas de fornecedores locais.",
+      "cidade": "Prados",
+      "estado": "MG",
+      "anosParceria": 6,
+      "certificacoes": ["Inspeção Municipal", "Produto Artesanal MG"],
+      "destaque": false
+    },
+    {
+      "id": "prod-07",
+      "nome": "Doces da Vovó",
+      "responsavel": "Dona Helena",
+      "tipoProduto": "Doces e Conservas",
+      "produtos": [
+        "Geleias artesanais",
+        "Doce de leite",
+        "Compotas de frutas",
+        "Marmelada"
+      ],
+      "descricao": "Receitas tradicionais de família passadas há 4 gerações. Preparo em tachos de cobre. Apenas frutas da estação e açúcar cristal.",
+      "cidade": "Tiradentes",
+      "estado": "MG",
+      "anosParceria": 7,
+      "certificacoes": ["Produto Artesanal MG"],
+      "destaque": true
+    },
+    {
+      "id": "prod-08",
+      "nome": "Café Serra da Mantiqueira",
+      "responsavel": "Luís Fernando",
+      "tipoProduto": "Café Especial",
+      "produtos": [
+        "Café em grãos",
+        "Café moído",
+        "Café torrado artesanal"
+      ],
+      "descricao": "Cafezal de altitude na Serra da Mantiqueira. Colheita seletiva apenas de grãos maduros. Torrefação artesanal em pequenos lotes.",
+      "cidade": "São Lourenço",
+      "estado": "MG",
+      "anosParceria": 5,
+      "certificacoes": ["Café Especial Certificado", "Agricultura Familiar"],
+      "destaque": false
+    }
+  ],
+  "informacoes": {
+    "titulo": "Valorizamos o Produtor Local",
+    "descricao": "Trabalhamos exclusivamente com produtores da região, fortalecendo a economia local e garantindo produtos frescos e de qualidade. Cada parceria é construída com base em confiança, qualidade e sustentabilidade.",
+    "beneficios": [
+      "Produtos mais frescos e saborosos",
+      "Rastreabilidade total da origem",
+      "Apoio à economia local",
+      "Preservação de técnicas tradicionais",
+      "Menor impacto ambiental"
+    ]
+  }
+}
+

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Receitas tradicionais do Café Colonial - Aprenda a fazer pratos típicos com histórias e dicas" />
+  <title>Receitas — Café Colonial</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body class="bg-gradient-to-br from-amber-50 to-orange-50 min-h-screen">
+  <main class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+    
+    <!-- Header -->
+    <header class="mb-8">
+      <!-- Back Button -->
+      <div class="mb-6">
+        <a href="/" class="inline-flex items-center gap-2 text-amber-700 hover:text-amber-900 font-medium transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+          </svg>
+          Voltar ao Menu
+        </a>
+      </div>
+      
+      <div class="text-center">
+        <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
+          Receitas Tradicionais
+        </h1>
+        <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
+          Descubra os segredos das receitas coloniais passadas de geração em geração
+        </p>
+      </div>
+    </header>
+
+    <!-- Info Box -->
+    <section class="mb-8 bg-gradient-to-r from-amber-100 to-orange-100 border-2 border-amber-300 rounded-xl p-6">
+      <div class="flex items-start gap-3">
+        <div class="flex-shrink-0 text-amber-700">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+          </svg>
+        </div>
+        <div class="flex-1">
+          <h3 class="font-semibold text-amber-900 mb-1">Sobre nossas receitas</h3>
+          <p class="text-sm text-amber-800 leading-relaxed">
+            Cada receita carrega uma história e tradição. São preparos passados de geração em geração, 
+            adaptados e aperfeiçoados ao longo dos anos. Clique em "Ver Receita Completa" para expandir 
+            ingredientes, modo de preparo e dicas especiais.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recipes Container -->
+    <section id="receitas-section" class="mb-10">
+      <div id="receitas-container" class="space-y-6">
+        <!-- Recipes will be loaded here by JavaScript -->
+        <div class="text-center py-12">
+          <div class="inline-block animate-spin rounded-full h-10 w-10 border-b-2 border-amber-700 mb-3"></div>
+          <p class="text-gray-500 text-sm">Carregando receitas...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="mb-10">
+      <div class="bg-white rounded-xl shadow-md p-8 text-center border-2 border-gray-200">
+        <div class="mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 mx-auto text-amber-700">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.87c1.355 0 2.697.055 4.024.165C17.155 8.51 18 9.473 18 10.608v2.513m-3-4.87v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0L3 16.5m15-3.38a48.474 48.474 0 00-6-.37c-2.032 0-4.034.125-6 .37m12 0c.39.049.777.102 1.163.16 1.07.16 1.837 1.094 1.837 2.175v5.17c0 .62-.504 1.124-1.125 1.124H4.125A1.125 1.125 0 013 20.625v-5.17c0-1.08.768-2.014 1.837-2.174A47.78 47.78 0 016 13.12M12.265 3.11a.375.375 0 11-.53 0L12 2.845l.265.265zm-3 0a.375.375 0 11-.53 0L9 2.845l.265.265zm6 0a.375.375 0 11-.53 0L15 2.845l.265.265z" />
+          </svg>
+        </div>
+        <h2 class="text-2xl font-bold text-gray-900 mb-3">Experimente Pessoalmente</h2>
+        <p class="text-gray-600 mb-5 max-w-lg mx-auto">
+          Todas estas receitas e muito mais você pode saborear em nosso café colonial. 
+          Venha nos visitar e desfrutar desta experiência gastronômica!
+        </p>
+        <div class="flex flex-col sm:flex-row gap-3 justify-center">
+          <a 
+            href="/cardapio.html" 
+            class="inline-block bg-amber-700 text-white font-medium px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors shadow-md"
+          >
+            Ver Cardápio
+          </a>
+          <a 
+            href="/reservas.html" 
+            class="inline-block bg-white text-amber-700 font-medium px-6 py-3 rounded-lg border-2 border-amber-700 hover:bg-amber-50 transition-colors"
+          >
+            Fazer Reserva
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-sm text-gray-500 border-t border-gray-200 pt-6">
+      <p class="mb-2">
+        <a href="/" class="text-amber-700 hover:text-amber-900 font-medium transition-colors">
+          ← Voltar ao Menu Principal
+        </a>
+      </p>
+      <p class="text-xs text-gray-400">
+        © 2025 Casarão Café Colonial
+      </p>
+    </footer>
+  </main>
+
+  <script src="/js/receitas.js"></script>
+</body>
+</html>
+

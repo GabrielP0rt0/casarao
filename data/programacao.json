@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdate": "2025-11-26",
+    "description": "Programação e horários do Café Colonial"
+  },
+  "horariosFuncionamento": {
+    "diasSemana": {
+      "Sábado": {
+        "abertura": "08:00",
+        "fechamento": "17:00",
+        "observacao": "Café colonial servido das 09:00 às 16:00"
+      },
+      "Domingo": {
+        "abertura": "08:00",
+        "fechamento": "16:00",
+        "observacao": "Café colonial servido das 09:00 às 15:00"
+      }
+    },
+    "observacaoGeral": "Aberto apenas aos finais de semana. Feriados com horário especial (consultar)."
+  },
+  "eventos": [
+    {
+      "id": "evt-01",
+      "titulo": "Café Colonial Completo",
+      "descricao": "Experimente nosso café colonial tradicional com mais de 30 itens inclusos",
+      "tipo": "regular",
+      "dias": ["Sábado", "Domingo"],
+      "horarioInicio": "09:00",
+      "horarioFim": "16:00",
+      "preco": "R$ 65,00 por pessoa",
+      "destaque": true
+    },
+    {
+      "id": "evt-02",
+      "titulo": "Workshop de Panificação Artesanal",
+      "descricao": "Aprenda a fazer pães caseiros com fermentação natural",
+      "tipo": "especial",
+      "dias": ["Sábado"],
+      "horarioInicio": "14:00",
+      "horarioFim": "17:00",
+      "preco": "R$ 120,00 por pessoa",
+      "destaque": false,
+      "observacao": "Vagas limitadas - Necessário reserva prévia"
+    },
+    {
+      "id": "evt-03",
+      "titulo": "Oficina de Geleias e Compotas",
+      "descricao": "Técnicas tradicionais de preparo e conservação",
+      "tipo": "especial",
+      "dias": ["Domingo"],
+      "horarioInicio": "10:00",
+      "horarioFim": "12:00",
+      "preco": "R$ 80,00 por pessoa",
+      "destaque": false,
+      "observacao": "Primeiro domingo de cada mês"
+    },
+    {
+      "id": "evt-04",
+      "titulo": "Café da Manhã Colonial",
+      "descricao": "Opção reduzida do café colonial para começar bem o dia",
+      "tipo": "regular",
+      "dias": ["Sábado", "Domingo"],
+      "horarioInicio": "08:00",
+      "horarioFim": "11:00",
+      "preco": "R$ 45,00 por pessoa",
+      "destaque": false
+    },
+    {
+      "id": "evt-05",
+      "titulo": "Roda de Violão ao Vivo",
+      "descricao": "Música brasileira tradicional ao vivo",
+      "tipo": "entretenimento",
+      "dias": ["Domingo"],
+      "horarioInicio": "13:00",
+      "horarioFim": "15:00",
+      "preco": "Gratuito (incluído no café colonial)",
+      "destaque": true,
+      "observacao": "Domingos alternados"
+    },
+    {
+      "id": "evt-06",
+      "titulo": "Contação de Histórias",
+      "descricao": "Histórias e causos da roça para toda família",
+      "tipo": "entretenimento",
+      "dias": ["Sábado"],
+      "horarioInicio": "15:00",
+      "horarioFim": "16:00",
+      "preco": "Gratuito",
+      "destaque": false,
+      "observacao": "Programação infantil"
+    }
+  ],
+  "avisos": [
+    {
+      "tipo": "info",
+      "mensagem": "Reservas antecipadas garantem melhor atendimento e disponibilidade."
+    },
+    {
+      "tipo": "warning",
+      "mensagem": "Workshops e oficinas têm vagas limitadas. Reserve com antecedência."
+    },
+    {
+      "tipo": "info",
+      "mensagem": "Em feriados, consulte nossa programação especial através das redes sociais."
+    }
+  ]
+}
+

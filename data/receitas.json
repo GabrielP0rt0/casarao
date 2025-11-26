@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdate": "2025-11-26",
+    "description": "Receitas tradicionais do Café Colonial"
+  },
+  "receitas": [
+    {
+      "id": "receita-01",
+      "nome": "Pão de Queijo Mineiro Tradicional",
+      "categoria": "Pães",
+      "tempoPreparo": "45 minutos",
+      "rendimento": "30 unidades",
+      "dificuldade": "Fácil",
+      "ingredientes": [
+        "500g de polvilho azedo",
+        "300ml de leite",
+        "100ml de óleo",
+        "2 ovos",
+        "300g de queijo minas ralado",
+        "1 colher (chá) de sal"
+      ],
+      "modoPreparo": [
+        "Em uma panela, ferva o leite com o óleo e o sal",
+        "Despeje sobre o polvilho e misture bem até formar uma massa homogênea",
+        "Deixe esfriar até poder manusear com as mãos",
+        "Adicione os ovos um a um, misturando bem",
+        "Acrescente o queijo ralado e misture até incorporar",
+        "Faça bolinhas com as mãos e coloque em assadeira untada",
+        "Asse em forno preaquecido a 180°C por 25-30 minutos"
+      ],
+      "historia": "O pão de queijo é uma iguaria mineira que surgiu no século XVIII. Criado pelos escravos que trabalhavam nas fazendas, aproveitavam o polvilho (resíduo da farinha de mandioca) e o leite das vacas. Com o tempo, ganhou o queijo minas e se tornou um símbolo da culinária brasileira.",
+      "dicas": [
+        "Use queijo minas frescal ou curado ralado",
+        "A massa deve ficar lisa e homogênea",
+        "Pode congelar as bolinhas cruas para assar depois"
+      ]
+    },
+    {
+      "id": "receita-02",
+      "nome": "Bolo de Fubá com Goiabada",
+      "categoria": "Bolos",
+      "tempoPreparo": "1 hora",
+      "rendimento": "12 fatias",
+      "dificuldade": "Fácil",
+      "ingredientes": [
+        "2 xícaras de fubá",
+        "1 xícara de farinha de trigo",
+        "2 xícaras de açúcar",
+        "1 xícara de leite",
+        "3 ovos",
+        "100ml de óleo",
+        "1 colher (sopa) de fermento em pó",
+        "200g de goiabada em cubos"
+      ],
+      "modoPreparo": [
+        "Bata no liquidificador os ovos, o açúcar, o óleo e o leite",
+        "Em uma tigela, misture o fubá, a farinha e o fermento",
+        "Junte os ingredientes líquidos aos secos e misture delicadamente",
+        "Adicione os cubos de goiabada à massa",
+        "Despeje em forma untada e enfarinhada",
+        "Asse em forno preaquecido a 180°C por 40-45 minutos",
+        "Deixe esfriar antes de desenformar"
+      ],
+      "historia": "O bolo de fubá é uma tradição das fazendas do interior. O milho, abundante nas roças, era moído artesanalmente para fazer o fubá. A combinação com goiabada surgiu como forma de aproveitar as frutas da estação, criando uma sobremesa típica do café da tarde colonial.",
+      "dicas": [
+        "Polvilhe os cubos de goiabada com farinha antes de adicionar",
+        "Teste com palito antes de tirar do forno",
+        "Sirva com queijo minas para um contraste perfeito"
+      ]
+    },
+    {
+      "id": "receita-03",
+      "nome": "Geleia Artesanal de Morango",
+      "categoria": "Conservas",
+      "tempoPreparo": "1 hora e 30 minutos",
+      "rendimento": "3 potes de 250ml",
+      "dificuldade": "Média",
+      "ingredientes": [
+        "1kg de morangos frescos",
+        "700g de açúcar cristal",
+        "Suco de 1 limão",
+        "1 pau de canela (opcional)"
+      ],
+      "modoPreparo": [
+        "Lave bem os morangos e retire as folhas",
+        "Corte os morangos em pedaços médios",
+        "Em uma panela grande, misture os morangos, o açúcar e o suco de limão",
+        "Deixe descansar por 30 minutos para o açúcar dissolver",
+        "Leve ao fogo médio, mexendo ocasionalmente",
+        "Cozinhe por aproximadamente 40-50 minutos até engrossar",
+        "Faça o teste do pires: pingue uma gota em prato frio, se não escorrer está pronta",
+        "Retire a espuma que se formar na superfície",
+        "Despeje ainda quente em potes esterilizados",
+        "Feche bem e vire os potes de cabeça para baixo até esfriar"
+      ],
+      "historia": "A tradição de fazer geleias vem da necessidade de conservar frutas da colheita. Nas fazendas, as mulheres preparavam conservas na época da safra para garantir doces durante todo o ano. Cada família tinha sua receita secreta, passada de geração em geração.",
+      "dicas": [
+        "Use morangos bem maduros para mais sabor",
+        "Esterilize os potes fervendo-os por 10 minutos",
+        "Armazene em local fresco e escuro por até 6 meses"
+      ]
+    },
+    {
+      "id": "receita-04",
+      "nome": "Broa de Milho Caipira",
+      "categoria": "Pães",
+      "tempoPreparo": "1 hora",
+      "rendimento": "1 broa grande",
+      "dificuldade": "Média",
+      "ingredientes": [
+        "2 xícaras de fubá",
+        "1 xícara de farinha de trigo",
+        "1 colher (sopa) de açúcar",
+        "1 colher (chá) de sal",
+        "1 colher (sopa) de fermento biológico seco",
+        "1 xícara de água morna",
+        "3 colheres (sopa) de óleo",
+        "2 ovos"
+      ],
+      "modoPreparo": [
+        "Dissolva o fermento no açúcar e na água morna, deixe descansar 10 minutos",
+        "Em uma tigela, misture o fubá, a farinha e o sal",
+        "Adicione o fermento dissolvido, os ovos e o óleo",
+        "Misture bem até formar uma massa homogênea",
+        "Deixe descansar por 30 minutos coberta com pano",
+        "Modele a broa no formato redondo e coloque em assadeira",
+        "Deixe crescer por mais 20 minutos",
+        "Asse em forno preaquecido a 200°C por 30-35 minutos",
+        "A broa deve ficar dourada e soar oca quando batida no fundo"
+      ],
+      "historia": "A broa de milho é herança portuguesa adaptada ao Brasil. Feita originalmente apenas com milho moído, ganhou a farinha de trigo para dar mais estrutura. Tradicionalmente assada em forno a lenha, tem sabor único que remete às manhãs frias na roça.",
+      "dicas": [
+        "Pode adicionar erva-doce para sabor especial",
+        "Sirva ainda morna com manteiga",
+        "Congela muito bem, reaqueça no forno"
+      ]
+    },
+    {
+      "id": "receita-05",
+      "nome": "Doce de Leite Caseiro",
+      "categoria": "Doces",
+      "tempoPreparo": "2 horas",
+      "rendimento": "1 pote de 500ml",
+      "dificuldade": "Média",
+      "ingredientes": [
+        "2 litros de leite integral",
+        "500g de açúcar cristal",
+        "1 colher (chá) de bicarbonato de sódio",
+        "1 pau de canela"
+      ],
+      "modoPreparo": [
+        "Em uma panela grande e funda, misture o leite e o açúcar",
+        "Leve ao fogo médio e mexa até o açúcar dissolver",
+        "Adicione o bicarbonato e a canela",
+        "Deixe ferver e reduza o fogo para médio-baixo",
+        "Mexa ocasionalmente para não grudar no fundo",
+        "Cozinhe por aproximadamente 1h30 até engrossar e ficar dourado",
+        "Retire a canela e teste a consistência",
+        "Deixe esfriar um pouco e transfira para pote esterilizado"
+      ],
+      "historia": "O doce de leite nasceu por acaso, segundo a lenda, quando uma cozinheira esqueceu leite com açúcar no fogo. O resultado foi tão delicioso que virou tradição em toda América Latina. Nas fazendas de gado, era feito em grandes tachos de cobre, mexido com colher de pau durante horas.",
+      "dicas": [
+        "Use panela de fundo grosso para não queimar",
+        "Quanto mais tempo no fogo, mais escuro e firme fica",
+        "Armazene na geladeira por até 1 mês"
+      ]
+    },
+    {
+      "id": "receita-06",
+      "nome": "Biscoito de Polvilho Assado",
+      "categoria": "Biscoitos",
+      "tempoPreparo": "40 minutos",
+      "rendimento": "50 biscoitos",
+      "dificuldade": "Fácil",
+      "ingredientes": [
+        "500g de polvilho azedo",
+        "200ml de leite",
+        "100ml de óleo",
+        "2 ovos",
+        "100g de queijo parmesão ralado",
+        "1 colher (chá) de sal"
+      ],
+      "modoPreparo": [
+        "Ferva o leite com o óleo e o sal",
+        "Despeje sobre o polvilho e misture bem",
+        "Deixe esfriar até poder mexer com as mãos",
+        "Adicione os ovos e o queijo, amasse bem",
+        "A massa deve ficar lisa e maleável",
+        "Faça rolinhos finos e corte em pedaços de 5cm",
+        "Coloque em assadeira untada com espaço entre eles",
+        "Asse em forno preaquecido a 180°C por 20-25 minutos até dourar"
+      ],
+      "historia": "Os biscoitos de polvilho são tradicionais em Minas Gerais e Goiás. Surgiram como alternativa ao pão, usando a mandioca abundante na região. Crocantes e saborosos, eram levados pelos tropeiros nas viagens longas por durarem muitos dias sem estragar.",
+      "dicas": [
+        "Pode fazer formato de argolinha juntando as pontas",
+        "Armazene em pote bem fechado para manter crocante",
+        "Experimente adicionar ervas como alecrim"
+      ]
+    }
+  ]
+}
+

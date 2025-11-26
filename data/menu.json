@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdate": "2025-11-26",
+    "description": "Menu principal do Café Colonial"
+  },
+  "items": [
+    {
+      "id": "cardapio",
+      "title": "Cardápio",
+      "description": "Veja nosso cardápio completo do café colonial",
+      "url": "/cardapio.html",
+      "icon": "menu-book"
+    },
+    {
+      "id": "programacao",
+      "title": "Programação",
+      "description": "Horários de funcionamento e eventos especiais",
+      "url": "/programacao.html",
+      "icon": "calendar"
+    },
+    {
+      "id": "receitas",
+      "title": "Receitas",
+      "description": "Receitas tradicionais e histórias por trás dos pratos",
+      "url": "/receitas.html",
+      "icon": "chef-hat"
+    },
+    {
+      "id": "produtores",
+      "title": "Produtores",
+      "description": "Conheça nossos parceiros e produtores locais",
+      "url": "/produtores.html",
+      "icon": "wheat"
+    },
+    {
+      "id": "reservas",
+      "title": "Reservas",
+      "description": "Faça sua reserva online com antecedência",
+      "url": "/reservas.html",
+      "icon": "bookmark"
+    },
+    {
+      "id": "feedback",
+      "title": "Feedback",
+      "description": "Compartilhe sua experiência conosco",
+      "url": "/feedback.html",
+      "icon": "message"
+    }
+  ]
+}
+

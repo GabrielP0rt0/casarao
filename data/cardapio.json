@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdate": "2025-11-26",
+    "description": "Cardápio completo do Café Colonial"
+  },
+  "categories": [
+    "Todos",
+    "Pães e Bolos",
+    "Geleias e Compotas",
+    "Queijos e Frios",
+    "Bebidas Quentes",
+    "Bebidas Frias",
+    "Doces Caseiros"
+  ],
+  "items": [
+    {
+      "id": "item-01",
+      "name": "Pão de Queijo Mineiro",
+      "description": "Pão de queijo tradicional feito com polvilho azedo e queijo minas",
+      "category": "Pães e Bolos",
+      "price": 6.50,
+      "tags": ["salgado", "tradicional", "sem-gluten"]
+    },
+    {
+      "id": "item-02",
+      "name": "Bolo de Fubá com Goiabada",
+      "description": "Bolo caseiro de fubá de milho orgânico com pedaços de goiabada",
+      "category": "Pães e Bolos",
+      "price": 8.00,
+      "tags": ["doce", "tradicional"]
+    },
+    {
+      "id": "item-03",
+      "name": "Broa de Milho",
+      "description": "Pão rústico de milho assado em forno a lenha",
+      "category": "Pães e Bolos",
+      "price": 5.50,
+      "tags": ["salgado", "artesanal"]
+    },
+    {
+      "id": "item-04",
+      "name": "Bolo de Cenoura com Cobertura",
+      "description": "Bolo úmido de cenoura com cobertura de chocolate",
+      "category": "Pães e Bolos",
+      "price": 9.00,
+      "tags": ["doce", "popular"]
+    },
+    {
+      "id": "item-05",
+      "name": "Pão Caseiro Integral",
+      "description": "Pão integral feito com farinha de trigo orgânica e sementes",
+      "category": "Pães e Bolos",
+      "price": 7.00,
+      "tags": ["salgado", "saudável"]
+    },
+    {
+      "id": "item-06",
+      "name": "Geleia de Morango",
+      "description": "Geleia artesanal de morango sem conservantes",
+      "category": "Geleias e Compotas",
+      "price": 12.00,
+      "tags": ["doce", "artesanal"]
+    },
+    {
+      "id": "item-07",
+      "name": "Compota de Figo",
+      "description": "Compota tradicional de figo em calda",
+      "category": "Geleias e Compotas",
+      "price": 15.00,
+      "tags": ["doce", "premium"]
+    },
+    {
+      "id": "item-08",
+      "name": "Geleia de Jabuticaba",
+      "description": "Geleia especial de jabuticaba colhida na propriedade",
+      "category": "Geleias e Compotas",
+      "price": 14.00,
+      "tags": ["doce", "exclusivo"]
+    },
+    {
+      "id": "item-09",
+      "name": "Doce de Abóbora",
+      "description": "Doce em pasta de abóbora com coco",
+      "category": "Geleias e Compotas",
+      "price": 11.00,
+      "tags": ["doce", "tradicional"]
+    },
+    {
+      "id": "item-10",
+      "name": "Queijo Minas Artesanal",
+      "description": "Queijo minas frescal de produtores locais",
+      "category": "Queijos e Frios",
+      "price": 18.00,
+      "tags": ["salgado", "artesanal", "local"]
+    },
+    {
+      "id": "item-11",
+      "name": "Requeijão Cremoso",
+      "description": "Requeijão caseiro cremoso",
+      "category": "Queijos e Frios",
+      "price": 16.00,
+      "tags": ["salgado", "cremoso"]
+    },
+    {
+      "id": "item-12",
+      "name": "Presunto Colonial",
+      "description": "Presunto defumado artesanalmente",
+      "category": "Queijos e Frios",
+      "price": 22.00,
+      "tags": ["salgado", "defumado"]
+    },
+    {
+      "id": "item-13",
+      "name": "Salame Artesanal",
+      "description": "Salame curado tradicionalmente",
+      "category": "Queijos e Frios",
+      "price": 25.00,
+      "tags": ["salgado", "curado", "premium"]
+    },
+    {
+      "id": "item-14",
+      "name": "Café Colonial Especial",
+      "description": "Café coado na hora de grãos selecionados",
+      "category": "Bebidas Quentes",
+      "price": 6.00,
+      "tags": ["bebida", "quente"]
+    },
+    {
+      "id": "item-15",
+      "name": "Chocolate Quente",
+      "description": "Chocolate cremoso feito com leite fresco",
+      "category": "Bebidas Quentes",
+      "price": 8.00,
+      "tags": ["bebida", "quente", "doce"]
+    },
+    {
+      "id": "item-16",
+      "name": "Chá de Ervas",
+      "description": "Chá de ervas frescas do jardim",
+      "category": "Bebidas Quentes",
+      "price": 5.00,
+      "tags": ["bebida", "quente", "natural"]
+    },
+    {
+      "id": "item-17",
+      "name": "Cappuccino Artesanal",
+      "description": "Cappuccino cremoso com canela",
+      "category": "Bebidas Quentes",
+      "price": 9.00,
+      "tags": ["bebida", "quente", "premium"]
+    },
+    {
+      "id": "item-18",
+      "name": "Suco Natural de Laranja",
+      "description": "Suco natural espremido na hora",
+      "category": "Bebidas Frias",
+      "price": 7.00,
+      "tags": ["bebida", "frio", "natural"]
+    },
+    {
+      "id": "item-19",
+      "name": "Limonada Suíça",
+      "description": "Limonada cremosa com leite condensado",
+      "category": "Bebidas Frias",
+      "price": 8.50,
+      "tags": ["bebida", "frio", "doce"]
+    },
+    {
+      "id": "item-20",
+      "name": "Suco de Maracujá",
+      "description": "Suco natural de maracujá",
+      "category": "Bebidas Frias",
+      "price": 7.00,
+      "tags": ["bebida", "frio", "natural"]
+    },
+    {
+      "id": "item-21",
+      "name": "Água Saborizada",
+      "description": "Água com frutas cítricas e hortelã",
+      "category": "Bebidas Frias",
+      "price": 4.00,
+      "tags": ["bebida", "frio", "leve"]
+    },
+    {
+      "id": "item-22",
+      "name": "Brigadeiro Gourmet",
+      "description": "Brigadeiro de chocolate belga",
+      "category": "Doces Caseiros",
+      "price": 4.00,
+      "tags": ["doce", "chocolate", "gourmet"]
+    },
+    {
+      "id": "item-23",
+      "name": "Beijinho de Coco",
+      "description": "Docinho de leite condensado com coco",
+      "category": "Doces Caseiros",
+      "price": 4.00,
+      "tags": ["doce", "coco"]
+    },
+    {
+      "id": "item-24",
+      "name": "Quindim",
+      "description": "Doce tradicional de gemas e coco",
+      "category": "Doces Caseiros",
+      "price": 5.00,
+      "tags": ["doce", "tradicional"]
+    },
+    {
+      "id": "item-25",
+      "name": "Pudim de Leite",
+      "description": "Pudim cremoso com calda de caramelo",
+      "category": "Doces Caseiros",
+      "price": 12.00,
+      "tags": ["doce", "cremoso"]
+    },
+    {
+      "id": "item-26",
+      "name": "Cocada Branca",
+      "description": "Cocada tradicional de coco ralado",
+      "category": "Doces Caseiros",
+      "price": 3.50,
+      "tags": ["doce", "coco", "tradicional"]
+    }
+  ]
+}
+
